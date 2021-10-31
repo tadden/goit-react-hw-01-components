@@ -1,11 +1,11 @@
 import './App.css';
-import user from './user.json'
+import user from './data/user.json'
 import Profile from './components/Profile/Profile';
-
+import Container from './components/Container/Container';
 
 function App() {
   return (
-    <div>
+    <Container>
       <Profile
         avatar={user.avatar}
         name={user.name}
@@ -13,8 +13,8 @@ function App() {
         location={user.location}
         stats={user.stats}
       />
-    </div>
-  )
+    </Container>
+  );
 }
 
 export default App;
