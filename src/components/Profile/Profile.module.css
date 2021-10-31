@@ -1,17 +1,10 @@
 .profile {
+  margin-left: 25%;
   max-width: 330px;
   margin-bottom: 30px;
   font-size: 20px;
   border-radius: 6px;
   box-shadow: var(--card-shadow);
-
-  transform: scale(1);
-  transition: transform var(--animation);
-}
-
-.profile:hover,
-.profile:focus {
-  transform: scale(1.02);
 }
 
 .description {
