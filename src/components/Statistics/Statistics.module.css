@@ -1,0 +1,28 @@
+.statistics {
+  margin-top: 70px;
+  font-size: 20px;
+  border-radius: 6px;
+  box-shadow: var(--card-shadow);
+}
+
+.title {
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  box-shadow: var(--card-shadow);
+}
+
+.item {
+  flex-basis: calc(100% / 5);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 16px;
+}
