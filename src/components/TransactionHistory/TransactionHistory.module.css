@@ -1,0 +1,28 @@
+.transactions {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: var(--card-shadow);
+}
+
+.thead {
+  font-size: 20px;
+  color: var(--white-text-color);
+  background-color: var(--thead-bg-color);
+}
+
+tr:nth-child(2n) {
+  background-color: var(--trow-bg-color);
+}
+
+.tbody tr:hover {
+  background-color: var(--trow-accent-bg-color);
+  color: var(--white-text-color);
+}
+
+th,
+td {
+  width: calc(100% / 3);
+  height: 40px;
+  border: 1px solid var(--table-border-color);
+}

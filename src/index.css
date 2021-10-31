@@ -5,12 +5,12 @@
   --profile-stats-bg-color: rgb(245, 244, 244);
   --profile-stats-border-color: #ccc;
 
-  --online-status-color: green;
-  --offline-status-color: red;
+  --online-status-color: rgb(12, 177, 12);
+  --offline-status-color: rgb(248, 20, 20);
 
-  --thead-bg-color: tomato;
+  --thead-bg-color: rgb(44, 164, 211);
   --trow-bg-color: #efefef;
-  --trow-accent-bg-color: beige;
+  --trow-accent-bg-color: rgb(97, 122, 177);
   --table-border-color: #f9f9f9;
 
   --card-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
